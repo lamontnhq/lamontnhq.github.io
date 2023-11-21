@@ -20,18 +20,18 @@ const Navbar = () => {
 
     return (
         <div className="navbar bg-base-500 px-6 flex flex-col md:flex-row items-center">
-            <div className="flex items-center navlinks mx-auto">
-                <div className="sm:mr-2 md:mr-4 lg:mr-8">
+            <div className="flex items-center mx-auto">
+                <div className="mr-2 sm:mr-2 md:mr-4 lg:mr-8">
                     <button className="btn btn-outline btn-accent">
                         <Link to="#AboutMe" smooth className="font-bold">About Me</Link>
                     </button>
                 </div>
-                <div className="sm:mr-2 md:mr-4 lg:mr-8">
+                <div className="mr-2 sm:mr-2 md:mr-4 lg:mr-8">
                     <button className="btn btn-outline btn-accent">
                         <Link to="#Education" smooth className="font-bold">Education</Link>
                     </button>
                 </div>
-                <div className="sm:mr-2 md:mr-4 lg:mr-8">
+                <div className="mr-2 sm:mr-2 md:mr-4 lg:mr-8">
                     <button className="btn btn-outline btn-accent">
                         <Link to="#Experiences" smooth className="font-bold">Experiences</Link>
                     </button>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
-            <div className="sm:mt-2 md:mt-1">
+            <div className="mt-2 sm:mt-2 md:mt-1 ml-5">
                 <button className="btn btn-ghost">
                     <label className="swap swap-rotate">
                         <input type="checkbox" onChange={handleToggle} checked={theme === "cupcake" ? false : true} />

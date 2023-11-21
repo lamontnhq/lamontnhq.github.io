@@ -4,9 +4,9 @@ const AboutMe = () => {
     return (
         <div className="mx-auto p-8">
 
-            <h2 className="text-5xl font-bold mb-8 underline">About Me</h2>
+            <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-bold mb-8 underline">About Me</h2>
 
-            <p className="paragraph1 mb-6 md:text-2xl lg:text-3xl">
+            <p className="mb-6 md:text-2xl lg:text-3xl lg:w-3/4 mx-auto xl:w-3/4">
                 I am the kind of person who enjoys being among people and thinks highly of
                 ideas being shared. I tackle difficulties with consideration and analysis
                 since I have a preference for reason and logic over emotion and abstract thought.
@@ -17,7 +17,7 @@ const AboutMe = () => {
                 and my inclination for organized planning guarantees a methodical
                 approach to achieve goals.
             </p>
-            <p className="paragraph2 md:text-2xl lg:text-3xl">
+            <p className="md:text-2xl lg:text-3xl lg:w-3/4 mx-auto xl:w-3/4">
                 I believe that I possess a dynamic combination of attributes
                 that can help me to succeed both individually and as a team.
             </p>
