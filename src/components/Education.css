@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.eduContainer {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.eduTitle {
+    text-decoration: underline;
+}
+
+.education-frame {
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 1400px;
+}
+
+.rpContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rpImage {
+    width: 400px;
+    height: 150px;
+}
+
+.rpSchool {
+    font-size: 26px;
+    text-align: left;
+}
+
+.rpQualification {
+    font-size: 26px;
+    text-align: left;
+}
+
+.rpLocation {
+    font-size: 26px;
+    text-align: left;
+}
+
+.rpDates {
+    font-size: 26px;
+    text-align: left;
+}
+
+.simContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.simImage {
+    width: 400px;
+    height: 150px;
+}
+
+.uowImage {
+    width: 400px;
+    height: 150px;
+}
+
+.simSchool {
+    font-size: 26px;
+    text-align: center;
+}
+
+.simQualification {
+    font-size: 26px;
+    text-align: center;
+}
+
+.simLocation {
+    font-size: 26px;
+    text-align: center;
+}
+
+.simDates {
+    font-size: 26px;
+    text-align: center;
+}

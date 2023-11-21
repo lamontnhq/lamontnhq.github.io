@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.hero {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-content {
+    width: 1000px;
+}
+
+.text-6xl {
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px #FFD700;
+}
+
+.py-6 {
+    font-size: 20px;
+}
+
+.opportunity {
+    font-size: 20px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+}
+
+.linkedinText {
+    margin-top: 10px;
+}
+
+.linkedinLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
