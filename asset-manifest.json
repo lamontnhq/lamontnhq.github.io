@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/lamontnhq.github.io/static/css/main.71ace309.css",
+    "main.js": "/lamontnhq.github.io/static/js/main.517921d5.js",
+    "static/js/787.6ba89617.chunk.js": "/lamontnhq.github.io/static/js/787.6ba89617.chunk.js",
+    "static/media/selfie.jpg": "/lamontnhq.github.io/static/media/selfie.08f15017dbeca6eec138.jpg",
+    "static/media/uow.png": "/lamontnhq.github.io/static/media/uow.9ab752b30a2896ed8393.png",
+    "static/media/python.png": "/lamontnhq.github.io/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/sim.png": "/lamontnhq.github.io/static/media/sim.5baf13d69fdc97df2045.png",
+    "static/media/react.png": "/lamontnhq.github.io/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/rp.png": "/lamontnhq.github.io/static/media/rp.8139870667da5547301f.png",
+    "static/media/mysql.png": "/lamontnhq.github.io/static/media/mysql.4610cbabbff468ff8ae3.png",
+    "static/media/java.png": "/lamontnhq.github.io/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c-sharp.png": "/lamontnhq.github.io/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/github.png": "/lamontnhq.github.io/static/media/github.b986a15565e74ccfe0e7.png",
+    "static/media/css.png": "/lamontnhq.github.io/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/html.png": "/lamontnhq.github.io/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/java-script.png": "/lamontnhq.github.io/static/media/java-script.78206ba65e01c7d57080.png",
+    "static/media/azure.png": "/lamontnhq.github.io/static/media/azure.5d1a8fab844d3535f56e.png",
+    "static/media/xml.png": "/lamontnhq.github.io/static/media/xml.e76b5a054aaa67ba11ee.png",
+    "static/media/linkedin.png": "/lamontnhq.github.io/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/lamontnhq.github.io/index.html",
+    "main.71ace309.css.map": "/lamontnhq.github.io/static/css/main.71ace309.css.map",
+    "main.517921d5.js.map": "/lamontnhq.github.io/static/js/main.517921d5.js.map",
+    "787.6ba89617.chunk.js.map": "/lamontnhq.github.io/static/js/787.6ba89617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71ace309.css",
+    "static/js/main.517921d5.js"
+  ]
+}
