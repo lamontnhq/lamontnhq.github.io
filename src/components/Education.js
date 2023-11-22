@@ -46,8 +46,8 @@ const Education = () => {
                     <h3 className="text-4xl font-bold mb-4 italic">University</h3>
 
                     <div className="flex flex-row items-center justify-center mb-2">
-                        <img src={SIM} alt="SIM" className="w-60 sm:w-60 md:w-70 lg:w-80 mr-2" />
-                        <img src={UOW} alt="UOW" className="w-60 sm:w-60 md:w-70 lg:w-80 mr-2" />
+                        <img src={SIM} alt="SIM" className="w-40 sm:w-60 md:w-70 lg:w-80 mr-2" />
+                        <img src={UOW} alt="UOW" className="w-40 sm:w-60 md:w-70 lg:w-80 mr-2" />
                     </div>
 
                     <div className="flex-column items-center justify-center mt-2 sm:mt-2 md:mt-4 lg:mt-6 ">
