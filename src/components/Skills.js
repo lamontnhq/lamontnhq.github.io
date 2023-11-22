@@ -41,7 +41,7 @@ const Skills = () => {
                             <p className="font-bold mt-2 lg:mt-1 text-sm sm:text-sm md:text-md lg:text-lg">{skill.label}</p>
                             <div className="flex flex-col">
                                 <progress
-                                    className="progress progress-primary w-80 mt-4 ml-4"
+                                    className="progress progress-primary w-16 mt-4 ml-4 sm:w-48 md:w-60 lg:w-80"
                                     value={skill.value}
                                     max={maxProgressValue}
                                 ></progress>
@@ -54,21 +54,28 @@ const Skills = () => {
             <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-8 mt-8 italic">Skills</h1>
 
             <div className="flex mt-10 align-center justify-center">
+
                 <div className="col-span-1 flex mr-10 sm:mr-10 md:mr-10 lg:mr-20">
-                    <img src={Github} alt="Github" className="w-10 h-10 mr-2" />
-                    <p className="mt-2 lg:mt-1.5 font-bold text-sm sm:text-sm md:text-md lg:text-lg">GitHub</p>
+                    <img src={Github} alt="Github" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-12 lg:h-12 mr-2" />
+                    <p className="mt-2 md:mt-3 lg:mt-1.5 font-bold text-xs sm:text-sm md:text-md lg:text-lg">GitHub</p>
                 </div>
+
+                <div className="col-span-1 flex">
+                    <img src={Azure} alt="Azure" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-12 lg:h-12 mr-2" />
+                    <p className="mt-2 sm:mt-2 md:mt-3 lg:mt-2 font-bold text-xs sm:text-sm md:text-md lg:text-lg">Microsoft Azure</p>
+                </div>
+            </div>
+
+            <div className="flex mt-5 align-center justify-center">
+
                 <div className="col-span-1 flex mr-10 sm:mr-10 md:mr-10 lg:mr-20">
-                    <img src={Firebase} alt="Firebase" className="w-10 h-10 mr-2" />
-                    <p className="mt-2 lg:mt-1.5 font-bold text-sm sm:text-sm md:text-md lg:text-lg">Firebase</p>
+                    <img src={Firebase} alt="Firebase" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-12 lg:h-12 mr-2" />
+                    <p className="mt-2 md:mt-3 lg:mt-1.5 font-bold text-xs sm:text-sm md:text-md lg:text-lg">Firebase</p>
                 </div>
-                <div className="col-span-1 flex mr-10 sm:mr-10 md:mr-10 lg:mr-20">
-                    <img src={Azure} alt="Azure" className="w-10 h-10 mr-2" />
-                    <p className="mt-1 md:mt-2 lg:mt-1.5 font-bold text-sm sm:text-sm md:text-md lg:text-lg">Microsoft Azure</p>
-                </div>
+
                 <div className="col-span-1 flex mb-10">
-                    <img src={Office} alt="Office" className="w-10 h-10 mr-2" />
-                    <p className="mt-1 md:mt-2 lg:mt-1.5 font-bold text-sm sm:text-sm md:text-md lg:text-lg">Microsoft Office</p>
+                    <img src={Office} alt="Office" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-12 lg:h-12 mr-2" />
+                    <p className="mt-2 sm:mt-2 md:mt-3 lg:mt-2 font-bold text-xs sm:text-sm md:text-md lg:text-lg">Microsoft Office</p>
                 </div>
             </div>
         </div>
